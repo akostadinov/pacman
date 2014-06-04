@@ -31,7 +31,7 @@ Create a nodejs-0.10 application (you can name it anything via -a)
 
 Add MongoDB support to your application
 
-    rhc app cartridge add -a pacman -c mongodb-2.2
+    rhc cartridge-add --app pacman -c mongodb-2.4
 
 Add this `github pacman` repository
 
@@ -49,10 +49,4 @@ experimental websocket enabled ports:
     http://pacman-$yournamespace.rhcloud.com:8000
     OR
     https://pacman-$yournamespace.rhcloud.com:8443
-
-
-Note: If you connect to the standard 80/443 ports
-          ( http[s]://pacman-$yournamespace.rhcloud.com ),
-      the application will fallback to using xhr-polling.
-
 
