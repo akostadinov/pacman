@@ -13,10 +13,10 @@
     "email": "ramr@example.org",
     "url":  "http://pacman-ramr.rhcloud.com/"
   },
-  "homepage": "http://pacman-ramr.rhcloud.com/",
+  "homepage": "https://github.com/openshift-quickstart/pacman",
   "repository": {
     "type": "git",
-    "url": "https://gitub.com/ramr/pacman"
+    "url": "https://github.com/openshift-quickstart/pacman.git"
   },
 
   "engines": {
